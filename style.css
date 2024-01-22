@@ -1,0 +1,138 @@
+*{
+    margin: 0px;
+    font-family: 'inter';
+}
+
+#topMenu{
+    background-image: url(./images/background-topmenu.svg);
+    color: white;
+    #logo{
+        margin: 50px 0px 0px 50px;
+    }
+
+    #title_top_menu{
+        margin: 50px 0px 0px 150px;
+    }
+
+    #text_top_menu{
+        margin: 35px 0px 0px 150px;
+        padding-bottom: 100px;
+    }
+}
+
+#informatinalMenu{
+    background-color: #EAECE5;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+
+    .icons{
+        margin: 50px 0px 50px 100px;  
+        padding: 25px;
+    }
+
+    .informativeText{
+        display: flex;
+        align-items: center;
+    }
+}
+
+#videosession{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+
+    #titleVideosession{
+        color: #247BA0;
+        margin: 50px 0px 0px 0px;
+    }
+
+    #video{
+        margin: 50px 25px 50px 100px;
+    }
+}   
+
+#carousel{
+    background-color:#247BA0;
+    padding: 50px;
+
+    #titleCarousel{
+        color:white;
+        text-align: center;
+        font-size: 25px;
+    }
+
+    #divCards{
+        margin: 25px 0px 0px 0px;
+        display: grid;
+        grid-auto-flow: column;
+        columns: auto;
+    }
+
+    .cards{
+        margin: 0px 0px 0px 30px;
+    }
+
+    #leftArrow{
+        display: none;
+    }
+
+    #samantha{
+        display: none;
+    }
+
+    .arrows{
+        margin-top: 55%;
+        cursor: pointer;
+    }
+
+    #rightArrow:hover{
+        transform: translateX(7px);
+        transition-duration: 0.5s;
+    }
+
+    #leftArrow:hover{
+        transform: translateX(-7px);
+        transition-duration: 0.5s;
+    }
+}
+
+#formSession{
+    text-align: center;
+    margin: 25px;
+    color: #383838;
+
+    #titleForm{
+        font-size: 25px;
+    }
+
+    input{
+        width: 300px;
+        height: 40px;
+        background-color: #EAECE5;
+        margin: 15px;
+        border: 0px;
+        border-radius: 5px;
+        padding-left: 10px;
+    }
+
+    button{
+        background-color: #247BA0;
+        height: 40px;
+        width: 250px;
+        color: #EAECE5;
+        border: 0px;
+        border-radius: 5px;
+        margin: 0px 0px 50px 0px;
+        font-weight: bolder;
+        cursor: pointer;
+    }
+
+    button:hover{
+        background-color: #318fb8;
+        color: white;
+        transform: translateY(-5px);
+        box-shadow: 0px 15px 20px 0px #05103081;
+        transition-duration: 0.5s;
+    }
+}
