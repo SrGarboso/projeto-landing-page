@@ -71,7 +71,7 @@
     columns: auto;
 }
 
-#carousel #carousel .cards {
+#carousel .cards {
     margin: 0px 0px 0px 30px;
 }
 
@@ -140,7 +140,6 @@
 
 @media(max-width: 780px) {
 
-
     #logo {
         margin: 30px 0px 0px 30px;
     }
@@ -161,8 +160,6 @@
         display: grid;
         grid-auto-flow: row;
         padding: 0px 0px 0px 60px;
-
-
     }
 
     #informatinalmenu .icons {
