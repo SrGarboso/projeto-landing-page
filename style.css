@@ -171,10 +171,8 @@
     }
 
     #videosession {
-
         display: grid;
         grid-auto-flow: row;
-
     }
 
     #video {
